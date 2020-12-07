@@ -1,7 +1,8 @@
-body
+body /*pas à moi*/
+   
 {
-    background-color:#F4ECF7;
-    margin:auto;
+	 margin:auto;
+    background-color:#F4ECF7;   
     width:1080px;
     text-align:center;
     line-height:150%;
@@ -9,10 +10,28 @@ body
 
 }
 
+h1 /*pas à moi*/
+{
+	font-family: Helvetica, sans-serif;
+}
+
 a
 {
-	text-decoration : none;
+	text-decoration : none;  
 	color : #9D58A8;
+}
+
+.logo /*pas à moi*/
+{
+    position: absolute;
+    top:0%;
+    left:48%;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    max-width: 160px;
+    height: 160px;
+    z-index:5;
 }
 
 .infoperso
@@ -40,7 +59,13 @@ a
 	float:right;
 }
 
-.flotte > img
+.flotte img
 {
 	height:169px;
+}
+
+.rogne img
+{
+	width:280px;
+	overflow:hidden;
 }
