@@ -1,0 +1,46 @@
+body
+{
+    background-color:#F4ECF7;
+    margin:auto;
+    width:1080px;
+    text-align:center;
+    line-height:150%;
+    max-width:1200px;
+
+}
+
+a
+{
+	text-decoration : none;
+	color : #9D58A8;
+}
+
+.infoperso
+{
+	color:orange;
+}
+
+.cpresse
+{
+	border:3px solid black;
+	background-color: beige; 
+	text-align: left;
+	padding-left:3px;
+}
+
+.titrecp
+{
+	color:red;
+	font-size:133%;
+}
+
+
+.flotte
+{
+	float:right;
+}
+
+.flotte > img
+{
+	height:169px;
+}
